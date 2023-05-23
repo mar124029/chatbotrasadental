@@ -26,7 +26,7 @@ class ActionDiagnoseSymptoms(Action):
         symptoms = tracker.get_slot("symptom")
         
         # encode each symptom
-        encoded_symptoms = [encoded_symptoms(symptom) for symptom in symptoms]
+        encoded_symptoms = [encode_symptom(symptom) for symptom in symptoms]
         
         # create a binary vector of symptoms to compare to each each documented illness
         illness_vector = create_illness_vector(encoded_symptoms)
@@ -34,5 +34,3 @@ class ActionDiagnoseSymptoms(Action):
         diagnosis_string = get_diagnosis(illness_vector)
 
         dispatcher.utter_message(text=diagnosis_string)
-
-        return []

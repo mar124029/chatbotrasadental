@@ -74,8 +74,7 @@ def get_diagnosis(illness_vector):
     # If there is an illness (or multiple illnesses)
     if len(diagnosis_df.loc[diagnosis_df['similarity'] > threshold]) > 0:
         illness = (
-            diagnosis_df
-            .sort_values(by='similarity', ascending=False)['illness']
+            diagnosis_df.sort_values(by='similarity', ascending=False)['illness']
             .iloc[0]
         )
 

@@ -1,0 +1,90 @@
+21:52:09,342 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+21:52:09,344 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+21:52:09,345 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+22:12:29,923 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+22:12:29,925 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+22:12:29,925 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+22:13:44,404 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+22:13:44,407 rasa_sdk.endpoint INFO Action endpoint is up and running on http://192.168.69.150:5055
+22:13:44,407 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+22:14:08,735 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+22:14:08,737 rasa_sdk.endpoint INFO Action endpoint is up and running on http://192.168.69.150:5055
+22:14:08,737 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+00:06:51,370 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+00:06:51,372 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+00:06:51,372 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+00:11:16,577 rasa_sdk.endpoint ERROR Exception occurred during execution of request <Request: GET /webhook>
+Traceback (most recent call last):
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/sanic_routing/router.py", line 100, in resolve
+    route = route.methods_index[method]
+KeyError: 'GET'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/sanic/router.py", line 38, in _get
+    return self.resolve(
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/sanic_routing/router.py", line 102, in resolve
+    raise self.method_handler_exception(
+sanic_routing.exceptions.NoMethod: Method 'GET' not found on <RouteGroup: path=webhook len=1>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "handle_request", line 26, in handle_request
+    from socket import socket
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/sanic/router.py", line 66, in get
+    return self._get(path, method, host)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/sanic/router.py", line 46, in _get
+    raise MethodNotSupported(
+sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /webhook
+00:11:46,460 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+00:11:46,460 root INFO Encoding symptom pelvic pain
+00:11:46,503 root INFO Flagged 13 potential symptom matches
+00:11:46,522 root INFO Unable to find a diagnosis, the closest match was Ovarian torsion twisting of the ovary at 0.39223227027636803
+00:11:46,522 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+00:13:03,274 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+00:13:03,274 root INFO Encoding symptom calf pain
+00:13:03,287 root INFO Flagged 7 potential symptom matches
+00:13:03,311 root INFO Unable to find a diagnosis, the closest match was Mittelschmerz ovulation pain at 0.3779644730092272
+00:13:03,311 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+00:13:45,181 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+00:13:45,182 root INFO Encoding symptom mouth pain
+00:13:45,197 root INFO Flagged 4 potential symptom matches
+00:13:45,223 root INFO Unable to find a diagnosis, the closest match was Coronary artery dissection heart artery tear at 0.5
+00:13:45,223 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+00:13:51,724 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+00:13:51,724 root INFO Encoding symptom mouth pain
+00:13:51,737 root INFO Flagged 4 potential symptom matches
+00:13:51,760 root INFO Unable to find a diagnosis, the closest match was Coronary artery dissection heart artery tear at 0.5
+00:13:51,761 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+00:19:15,526 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+00:19:15,527 root INFO Encoding symptom poisoning
+00:19:15,539 root INFO Flagged 1 potential symptom matches
+00:19:15,562 root INFO Diagnosing user with Iron overdose
+00:19:15,562 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+00:21:21,747 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+00:21:21,747 root INFO Encoding symptom weakness
+00:21:21,759 root INFO Flagged 1 potential symptom matches
+00:21:21,781 root INFO Diagnosing user with Limb ischemia decreased blood flow
+00:21:21,782 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+00:21:59,257 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+00:21:59,257 root INFO Encoding symptom failure to thrive
+00:21:59,270 root INFO Flagged 2 potential symptom matches
+00:21:59,293 root INFO Unable to find a diagnosis, the closest match was Pneumoconiosis lung disease at 0.4999999999999999
+00:21:59,294 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+00:52:19,76 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+00:52:19,76 root INFO Encoding symptom stomachache
+00:52:19,92 root INFO Flagged 0 potential symptom matches
+00:52:19,118 root INFO Unable to find a diagnosis, the closest match was Cholecystitis inflammation of the gallbladder at 0.0
+00:52:19,118 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+00:52:27,390 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+00:52:27,390 root INFO Encoding symptom pain
+00:52:27,402 root INFO Flagged 13 potential symptom matches
+00:52:27,425 root INFO Unable to find a diagnosis, the closest match was Coronary artery dissection heart artery tear at 0.2773500981126146
+00:52:27,425 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+00:52:51,36 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+00:52:51,36 root INFO Encoding symptom stings
+00:52:51,59 root INFO Flagged 1 potential symptom matches
+00:52:51,82 root INFO Diagnosing user with Anopheles mosquito bite
+00:52:51,82 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
