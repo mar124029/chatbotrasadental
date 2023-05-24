@@ -103,3 +103,174 @@ sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /webhook
 01:23:08,965 root INFO Flagged 1 potential symptom matches
 01:23:08,988 root INFO Diagnosing user with Anopheles mosquito bite
 01:23:08,989 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+01:39:36,109 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+01:39:36,109 root INFO Encoding symptom weakness
+01:39:36,125 root INFO Flagged 1 potential symptom matches
+01:39:36,149 root INFO Diagnosing user with Limb ischemia decreased blood flow
+01:39:36,149 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+01:39:53,118 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+01:39:53,118 root INFO Encoding symptom failure to thrive
+01:39:53,144 root INFO Flagged 2 potential symptom matches
+01:39:53,167 root INFO Unable to find a diagnosis, the closest match was Pneumoconiosis lung disease at 0.4999999999999999
+01:39:53,167 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+12:08:10,783 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+12:08:10,786 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+12:08:10,786 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+12:11:09,177 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+12:11:09,178 root INFO Encoding symptom pelvic pain
+12:11:09,208 root INFO Flagged 13 potential symptom matches
+12:11:09,228 root INFO Unable to find a diagnosis, the closest match was Ovarian torsion twisting of the ovary at 0.39223227027636803
+12:11:09,229 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+12:18:56,508 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+12:18:56,511 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+12:18:56,511 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+12:21:11,340 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+12:21:11,340 root INFO Encoding symptom muscle spasm
+12:21:11,362 root INFO Flagged 2 potential symptom matches
+12:21:11,386 root INFO Diagnosing user with Vitamin D deficiency
+12:21:11,386 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+12:24:27,916 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+12:24:27,916 root INFO Encoding symptom painful gums](symptom
+12:24:27,926 root INFO Flagged 0 potential symptom matches
+12:24:27,951 root INFO Unable to find a diagnosis, the closest match was Cholecystitis inflammation of the gallbladder at 0.0
+12:24:27,951 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+12:24:42,907 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+12:24:42,907 root INFO Encoding symptom painful gums
+12:24:42,917 root INFO Flagged 2 potential symptom matches
+12:24:42,940 root INFO Diagnosing user with Gingivitis inflammation of the gums
+12:24:42,940 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+12:25:25,836 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+12:25:25,836 root INFO Encoding symptom vomiting
+12:25:25,846 root INFO Flagged 1 potential symptom matches
+12:25:25,869 root INFO Diagnosing user with Acidosis  (excessive acid in the body)
+12:25:25,870 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+12:26:02,234 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+12:26:02,235 root INFO Encoding symptom arm numbness
+12:26:02,244 root INFO Flagged 0 potential symptom matches
+12:26:02,268 root INFO Unable to find a diagnosis, the closest match was Cholecystitis inflammation of the gallbladder at 0.0
+12:26:02,269 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+12:26:37,258 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+12:26:37,258 root INFO Encoding symptom joint stiffness
+12:26:37,268 root INFO Flagged 0 potential symptom matches
+12:26:37,292 root INFO Unable to find a diagnosis, the closest match was Cholecystitis inflammation of the gallbladder at 0.0
+12:26:37,292 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+12:27:14,554 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+12:27:14,554 root INFO Encoding symptom vaginal itching
+12:27:14,567 root INFO Encoding symptom pain or soreness of breast
+12:27:14,581 root INFO Flagged 1 potential symptom matches
+12:27:14,587 root INFO Flagged 3 potential symptom matches
+12:27:14,610 root INFO Diagnosing user with Breast fibroadenoma benign breast lumps
+12:27:14,611 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+12:28:13,113 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+12:28:13,114 root INFO Encoding symptom headache after trauma
+12:28:13,119 root INFO Encoding symptom flank pain
+12:28:13,124 root INFO Encoding symptom swollen lymph nodes
+12:28:13,133 root INFO Flagged 1 potential symptom matches
+12:28:13,139 root INFO Flagged 1 potential symptom matches
+12:28:13,145 root INFO Flagged 0 potential symptom matches
+12:28:13,169 root INFO Unable to find a diagnosis, the closest match was Retroperitoneal hemorrhage flank bleeding at 0.4999999999999999
+12:28:13,169 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+12:29:24,140 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+12:29:24,140 root INFO Encoding symptom blood in vomit
+12:29:24,146 root INFO Encoding symptom facial droop
+12:29:24,151 root INFO Encoding symptom sneezing
+12:29:24,155 root INFO Encoding symptom sneezing
+12:29:24,163 root INFO Flagged 1 potential symptom matches
+12:29:24,167 root INFO Flagged 0 potential symptom matches
+12:29:24,173 root INFO Flagged 1 potential symptom matches
+12:29:24,178 root INFO Flagged 1 potential symptom matches
+12:29:24,201 root INFO Diagnosing user with Hemoptysis coughing blood
+12:29:24,202 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+21:22:46,215 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+21:22:46,217 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+21:22:46,217 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+21:34:35,459 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+21:34:35,459 root INFO Encoding symptom backpain
+21:34:35,472 root INFO Flagged 0 potential symptom matches
+21:34:35,492 root INFO Unable to find a diagnosis, the closest match was Cholecystitis inflammation of the gallbladder at 0.0
+21:34:35,492 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+00:11:16,144 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+00:11:16,146 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+00:11:16,147 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+00:12:51,328 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+00:12:51,328 root INFO Encoding symptom blood in vomit
+00:12:51,343 root INFO Encoding symptom facial droop
+00:12:51,347 root INFO Encoding symptom sneezing
+00:12:51,352 root INFO Encoding symptom sneezing
+00:12:51,362 root INFO Flagged 1 potential symptom matches
+00:12:51,368 root INFO Flagged 0 potential symptom matches
+00:12:51,374 root INFO Flagged 1 potential symptom matches
+00:12:51,380 root INFO Flagged 1 potential symptom matches
+00:12:51,403 root INFO Diagnosing user with Hemoptysis coughing blood
+00:12:51,403 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+00:20:03,104 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+00:20:03,104 root INFO Encoding symptom vaginal itching
+00:20:03,110 root INFO Encoding symptom pain or soreness of breast
+00:20:03,118 root INFO Flagged 1 potential symptom matches
+00:20:03,123 root INFO Flagged 3 potential symptom matches
+00:20:03,145 root INFO Diagnosing user with Breast fibroadenoma benign breast lumps
+00:20:03,145 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+00:34:59,99 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+00:34:59,101 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+00:34:59,101 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+00:39:43,19 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+00:39:43,21 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+00:39:43,21 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+00:40:45,173 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+00:40:45,174 root INFO Encoding symptom blood in vomit
+00:40:45,179 root INFO Encoding symptom facial droop
+00:40:45,183 root INFO Encoding symptom sneezing
+00:40:45,187 root INFO Encoding symptom sneezing
+00:40:45,203 root INFO Flagged 1 potential symptom matches
+00:40:45,209 root INFO Flagged 0 potential symptom matches
+00:40:45,215 root INFO Flagged 1 potential symptom matches
+00:40:45,220 root INFO Flagged 1 potential symptom matches
+00:40:45,244 root INFO Diagnosing user with Hemoptysis coughing blood
+00:40:45,244 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+00:40:56,841 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+00:40:56,841 root INFO Encoding symptom vaginal itching
+00:40:56,846 root INFO Encoding symptom pain or soreness of breast
+00:40:56,854 root INFO Flagged 1 potential symptom matches
+00:40:56,859 root INFO Flagged 3 potential symptom matches
+00:40:56,882 root INFO Diagnosing user with Breast fibroadenoma benign breast lumps
+00:40:56,882 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+00:41:20,757 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+00:41:20,757 root INFO Encoding symptom vaginal itching
+00:41:20,766 root INFO Encoding symptom pain or soreness of breast
+00:41:20,780 root INFO Flagged 1 potential symptom matches
+00:41:20,786 root INFO Flagged 3 potential symptom matches
+00:41:20,810 root INFO Diagnosing user with Breast fibroadenoma benign breast lumps
+00:41:20,810 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+00:43:49,935 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+00:43:49,936 root INFO Encoding symptom vomiting
+00:43:49,945 root INFO Flagged 1 potential symptom matches
+00:43:49,967 root INFO Diagnosing user with Acidosis  (excessive acid in the body)
+00:43:49,967 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+00:44:52,789 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+00:44:52,789 root INFO Encoding symptom cyanosis
+00:44:52,794 root INFO Encoding symptom headache after trauma
+00:44:52,798 root INFO Encoding symptom neck stiffness or tightness
+00:44:52,801 root INFO Encoding symptom frequent urination
+00:44:52,810 root INFO Flagged 0 potential symptom matches
+00:44:52,814 root INFO Flagged 1 potential symptom matches
+00:44:52,817 root INFO Flagged 5 potential symptom matches
+00:44:52,820 root INFO Flagged 1 potential symptom matches
+00:44:52,833 root INFO Diagnosing user with Muscle and ligament inflammation enthesopathy
+00:44:52,834 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+00:45:59,947 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+00:45:59,947 root INFO Encoding symptom cranky
+00:45:59,952 root INFO Encoding symptom crying
+00:45:59,955 root INFO Encoding symptom fussy
+00:45:59,958 root INFO Encoding symptom irritable child
+00:45:59,961 root INFO Encoding symptom visual problems
+00:45:59,965 root INFO Encoding symptom learning difficulties
+00:45:59,969 root INFO Encoding symptom elbow swelling
+00:45:59,976 root INFO Flagged 0 potential symptom matches
+00:45:59,981 root INFO Flagged 0 potential symptom matches
+00:45:59,987 root INFO Flagged 0 potential symptom matches
+00:45:59,992 root INFO Flagged 0 potential symptom matches
+00:45:59,997 root INFO Flagged 1 potential symptom matches
+00:46:00,3 root INFO Flagged 1 potential symptom matches
+00:46:00,8 root INFO Flagged 1 potential symptom matches
+00:46:00,31 root INFO Diagnosing user with Fetal alcohol syndrome
+00:46:00,32 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'

@@ -1,5 +1,10 @@
 <html>
     <body>
+      <style>
+        .rw-conversation-container .rw-header{background-color:rgb(22, 84, 121);}
+        .rw-conversation-container .rw-messages-container .rw-message .rw-response{background-color:rgb(22, 84, 121);color: white;}
+        .rw-conversation-container .rw-messages-container .rw-message .rw-client{background-color:rgb(31, 180, 240);color: rgb(0, 0, 0);}
+      </style>
         <script>!(function () {
             let e = document.createElement("script"),
               t = document.head || document.getElementsByTagName("head")[0];
@@ -13,7 +18,8 @@
                     initPayload:'/greet',
                     customData: { language: "en" },
                     socketUrl: "http://localhost:5005",
-                    title:"MedAssist-AI"
+                    title:"MedAssist-AI",
+                    subtitle:"Chatbot"
                     // add other props here
                   },
                   null
@@ -21,7 +27,7 @@
               }),
               t.insertBefore(e, t.firstChild);
           })();
-          window.localstorage.clear()
+          window.localStorage.clear();
           </script>
     </body>
 </html>
