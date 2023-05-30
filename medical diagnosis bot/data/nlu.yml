@@ -96,6 +96,7 @@ nlu:
     - Thanks a million
     - thanks so much
     - Great, thank you
+    
 
 - intent: describe_symptoms
   examples: |

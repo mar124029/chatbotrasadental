@@ -274,3 +274,43 @@ sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /webhook
 00:46:00,8 root INFO Flagged 1 potential symptom matches
 00:46:00,31 root INFO Diagnosing user with Fetal alcohol syndrome
 00:46:00,32 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+17:24:12,146 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+17:24:12,149 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+17:24:12,149 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+17:27:42,997 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+17:27:42,999 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+17:27:42,999 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+17:31:08,229 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+17:31:08,231 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+17:31:08,231 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+17:33:09,248 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+17:33:09,248 root INFO Encoding symptom hairloss
+17:33:09,267 root INFO Flagged 0 potential symptom matches
+17:33:09,294 root INFO Unable to find a diagnosis, the closest match was Cholecystitis inflammation of the gallbladder at 0.0
+17:33:09,294 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+17:34:40,725 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+17:34:40,725 root INFO Encoding symptom hairloss
+17:34:40,730 root INFO Encoding symptom baldness
+17:34:40,739 root INFO Flagged 0 potential symptom matches
+17:34:40,744 root INFO Flagged 0 potential symptom matches
+17:34:40,768 root INFO Unable to find a diagnosis, the closest match was Cholecystitis inflammation of the gallbladder at 0.0
+17:34:40,768 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+23:28:38,496 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+23:28:38,497 root INFO Encoding symptom upper abdominal pain
+23:28:38,514 root INFO Flagged 7 potential symptom matches
+23:28:38,538 root INFO Diagnosing user with Ventral hernia bulging of the abdominal wall
+23:28:38,538 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+15:02:00,819 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+15:02:00,822 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+15:02:00,822 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+15:02:59,34 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+15:02:59,34 root INFO Encoding symptom blood in vomit
+15:02:59,44 root INFO Encoding symptom facial droop
+15:02:59,48 root INFO Encoding symptom sneezing
+15:02:59,51 root INFO Encoding symptom sneezing
+15:02:59,61 root INFO Flagged 1 potential symptom matches
+15:02:59,65 root INFO Flagged 0 potential symptom matches
+15:02:59,70 root INFO Flagged 1 potential symptom matches
+15:02:59,74 root INFO Flagged 1 potential symptom matches
+15:02:59,93 root INFO Diagnosing user with Hemoptysis coughing blood
+15:02:59,93 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
