@@ -1,0 +1,451 @@
+actions:
+- utter_1
+- utter_10
+- utter_11
+- utter_12
+- utter_13
+- utter_14
+- utter_15
+- utter_16
+- utter_17
+- utter_18
+- utter_19
+- utter_2
+- utter_20
+- utter_3
+- utter_4
+- utter_5
+- utter_6
+- utter_7
+- utter_8
+- utter_9
+- utter_ask
+- utter_better_feeling
+- utter_bot_Boolean
+- utter_bot_purpose
+- utter_cheer_up
+- utter_conclude
+- utter_continue_sharing
+- utter_creator
+- utter_detail
+- utter_did_that_help
+- utter_discuss
+- utter_final
+- utter_goodbye
+- utter_greet
+- utter_happy
+- utter_iamabot
+- utter_job_done
+- utter_less_sad
+- utter_perfect_happy
+- utter_quick_question
+- utter_rarely
+- utter_satisfied
+- utter_so_sad
+- utter_sometimes
+- utter_usually
+- utter_very_happy
+- utter_name
+- utter_age
+- utter_addicted
+- utter_knowledge
+- utter_feeling
+- utter_sharing
+- utter_Stars
+- utter_history
+entities:
+- LINK
+- LINK2
+- LINK3
+- Link3
+intents:
+- mood_unhappy
+- goodbye
+- greet
+- mood_great
+- affirm
+- mood_depression
+- deny
+- Satisfied
+- bot_challenge
+- bot_purpose
+- Boolean
+- bot_Boolean
+- Help_Session
+- final
+- ask
+- great_conclusion
+- detail
+- creator
+- question_1
+responses:
+  utter_1:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you tend to join social organisations when you have the opportunities?
+  utter_10:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you try to include more people in your plans?
+  utter_11:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you try to forget about something bad you ever said or did?
+  utter_12:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you keep calm in an emotionally charged situation?
+  utter_13:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you try to help your subordinates by going out of way to do something
+      for them?
+  utter_14:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you care for facts rather than subjective opinions?
+  utter_15:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you try to include more people in your plans?
+  utter_16:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you ever use "please" or "thank you" in your everyday conversation?
+  utter_17:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you se standards for proper performance and insist that people achieve
+      them?
+  utter_18:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you naturally smile at other people?
+  utter_19:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you try to find ways to make a boring task interesting?
+  utter_2:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you have close personal interactions with people?
+  utter_20:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you help out co-workers in case of emergencies ?
+  utter_3:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you try to participate in group activities?
+  utter_4:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you like people to act cool and distant towards you?
+  utter_5:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you tend to be the dominant person when with people?
+  utter_6:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you tend to join social organisations when you have the opportunities?
+  utter_7:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do other people strongly influence your actions?
+  utter_8:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you take time out of your daily routine to sit alone and free of duties?
+  utter_9:
+  - buttons:
+    - payload: /mood_great
+      title: Usually
+    - payload: /mood_great
+      title: Sometimes
+    - payload: /mood_unhappy
+      title: Rarely
+    text: Do you try to take charge of things when with people?
+  utter_ask:
+  - buttons:
+    - payload: /affirm
+      title: Yes
+    - payload: /deny
+      title: No
+    text: have you felt any kind of stress during the past week?
+  utter_better_feeling:
+  - buttons:
+    - payload: /affirm
+      title: Yes
+    - payload: /deny
+      title: No
+    text: Did that made you feel you better?
+  utter_bot_Boolean:
+  - text: Yes
+  utter_bot_purpose:
+  - text: I am on a mission to help humanity
+  utter_cheer_up:
+  - buttons:
+    - payload: /affirm
+      title: Yes
+    - payload: /deny
+      title: No
+    image: https://i.pinimg.com/236x/8a/d5/d0/8ad5d076ad14c0c835dfce853bb732ae--cheer-up-awesome-stuff.jpg
+    text: 'Here is something to cheer you up:'
+  utter_conclude:
+  - text: It was so nice talking to you
+  utter_continue_sharing:
+  - text: No worries I am still here for you. Keep on sharing your feelings. This
+      will definitely help.
+  utter_creator:
+  - text: Here, you will find details about my [creator](https://www.linkedin.com/in/huzaib-ul-hassan)
+  utter_detail:
+  - text: you can tell me all about it
+  utter_did_that_help:
+  - buttons:
+    - payload: /affirm
+      title: Yes
+    - payload: /deny
+      title: No
+    text: Did that help you?
+  utter_discuss:
+  - text: I am here for you. You can discuss all your problems with me. Feel free
+      to pour your heart out.
+  utter_final:
+  - text: Thanx for sharing, I know it was hard for you
+  utter_goodbye:
+  - image: https://www.desicomments.com/wp-content/uploads/2018/08/Goodbye-Image-600x397.jpg
+    text: 'Eva is always happy to assist you. Till next time: '
+  utter_greet:
+  - buttons:
+    - payload: /mood_great
+      title: Great
+    - payload: /mood_great
+      title: Perfect
+    - payload: /mood_unhappy
+      title: Not so good
+    - payload: /mood_unhappy
+      title: Worse than ever
+    image: https://media1.tenor.com/images/b440fe8b087416820258b711b91ca18a/tenor.gif?itemid=9499692
+    text: Hey! I am Eva, Your personal mental health assistant. How are you doing
+      today?
+  utter_happy:
+  - text: Great, carry on!
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_job_done:
+  - text: I am so happy for you. Feel free to connect whenever you need me. Thanks
+  utter_less_sad:
+  - text: Atleast something is good. Tell me more about how you are feeling
+  utter_perfect_happy:
+  - text: That's nice. One must always stay positive and cherish the bounties around.
+      Feel free to share your experience with Eva.
+  utter_quick_question:
+  - text: Quick Question.
+  utter_rarely:
+  - text: Quick Tip- You must realize the importance of getting yourself involved.
+  utter_satisfied:
+  - text: It has been my pleasure to be of assistance
+  utter_so_sad:
+  - text: That's so sad
+  utter_sometimes:
+  - text: Quick Tip- You should try it more often.
+  utter_usually:
+  - text: Quick Tip- That's great. Keep it up.
+  utter_very_happy:
+  - text: That's amazing. People should learn from you to be more lively and positive
+      in life. Feel free to share your experience.
+  utter_mood_count:
+  - buttons:
+    - payload: /affirm
+      title: Yes
+    - payload: /deny
+      title: No
+    text: Would you like to answer a few questions to calculate your mood score?
+  utter_name:
+  - text: Let's start with your name...
+  utter_age:
+  - text: And what about your age?
+  utter_addicted:
+  - buttons:
+    - payload: /Mood_Count
+      title: Yes to both
+    - payload: /Mood_Count
+      title: Only to drugs
+    - payload: /Mood_Count
+      title: Only to alcohol
+    - payload: /Mood_Count
+      title: I am not habituated to either
+      text: Are you habituated to drugs and alcohol?
+  utter_knowledge:
+  - buttons:
+    - payload: /Mood_Count
+      title: Very Knowledgeable
+    - payload: /Mood_Count
+      title: Knowledgeable
+    - payload: /Mood_Count
+      title: Neutral
+    - payload: /Mood_Count
+      title: No knowledge at all
+      text: How knowledgeable are you about mental health related issues?
+  utter_feeling:
+  - buttons:
+    - payload: /Mood_Count
+      title: Yes
+    - payload: /Mood_Count
+      title: No
+      text: Have you felt particularly low or down for more than 2 weeks in a row?
+  utter_Stars:
+  - buttons:
+    - payload: /Mood_Count
+      title: Low
+    - payload: /Mood_Count
+      title: Neutral
+    - payload: /Mood_Count
+      title: High
+    - payload: /Mood_Count
+      title: Very high
+      text: How would you rate your stress levels?
+  utter_history:
+  - buttons:
+    - payload: /Mood_Count
+      title: Yes
+    - payload: /Mood_Count
+      title: No
+    - payload: /Mood_Count
+      title: Not sure
+      text: Is there a history of mental disorder in your family?
+  utter_sharing:
+  - buttons:
+    - payload: /Mood_Count
+      title: Very often
+    - payload: /Mood_Count
+      title: Sometimes
+    - payload: /Mood_Count
+      title: No
+    - payload: /Mood_Count
+      title: I am self dependent
+      text: Do you often feel the need of sharing your feelings?
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+slots:
+  name:
+    auto_fill: false
+    type: unfeaturized
+  age:
+    auto_fill: false
+    type: unfeaturized
+  history:
+    auto_fill: false
+    type: unfeaturized
+  feeling:
+    auto_fill: false
+    type: unfeaturized
+  addiction:
+    auto_fill: false
+    type: unfeaturized
+  knowledge:
+    auto_fill: false
+    type: unfeaturized
+  Stars:
+    auto_fill: false
+    type: unfeaturized
+  sharing:
+    auto_fill: false
+    type: unfeaturized

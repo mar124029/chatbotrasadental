@@ -37,7 +37,9 @@ entities:
   
 slots:
   name:
-    type: unfeaturized  
+    type: unfeaturized
+
+ 
 
 responses:
   utter_greet:
