@@ -314,3 +314,21 @@ sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /webhook
 15:02:59,74 root INFO Flagged 1 potential symptom matches
 15:02:59,93 root INFO Diagnosing user with Hemoptysis coughing blood
 15:02:59,93 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+11:50:36,450 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+11:50:36,453 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+11:50:36,453 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+11:56:07,182 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+11:56:07,182 root INFO Encoding symptom fainting
+11:56:07,204 root INFO Flagged 1 potential symptom matches
+11:56:07,230 root INFO Diagnosing user with Acidosis  (excessive acid in the body)
+11:56:07,230 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+12:22:54,485 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+12:22:54,485 root INFO Encoding symptom liver failure
+12:22:54,521 root INFO Flagged 0 potential symptom matches
+12:22:54,553 root INFO Unable to find a diagnosis, the closest match was Cholecystitis inflammation of the gallbladder at 0.0
+12:22:54,554 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+12:23:55,865 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+12:23:55,865 root INFO Encoding symptom visual flashing lights
+12:23:55,887 root INFO Flagged 1 potential symptom matches
+12:23:55,902 root INFO Diagnosing user with Posterior vitreous detachment common eye abnormality
+12:23:55,903 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
