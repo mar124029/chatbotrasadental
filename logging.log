@@ -1,0 +1,541 @@
+08:39:26,685 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+08:39:26,688 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+08:39:26,688 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+08:40:19,309 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+08:40:19,309 root INFO Encoding symptom penile discharge
+08:40:19,325 rasa_sdk.endpoint ERROR Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'symptom_vector'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 112, in webhook
+    result = await executor.run(action_call)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/executor.py", line 398, in run
+    action(dispatcher, tracker, domain)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/actions/actions.py", line 32, in run
+    illness_vector = create_illness_vector(encoded_symptoms)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/diaganosis_functions/diagnose.py", line 50, in create_illness_vector
+    np.array(list(symptoms_df['symptom_vector'])))[0])
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'symptom_vector'09:21:15,74 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+09:21:15,76 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+09:21:15,76 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+09:22:06,772 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+09:22:06,772 root INFO Encoding symptom blood in vomit
+09:22:06,778 root INFO Encoding symptom facial droop
+09:22:06,783 root INFO Encoding symptom sneezing
+09:22:06,788 root INFO Encoding symptom sneezing
+09:22:06,792 rasa_sdk.endpoint ERROR Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'symptom_vector'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 112, in webhook
+    result = await executor.run(action_call)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/executor.py", line 398, in run
+    action(dispatcher, tracker, domain)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/actions/actions.py", line 32, in run
+    illness_vector = create_illness_vector(encoded_symptoms)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/diaganosis_functions/diagnose.py", line 50, in create_illness_vector
+    np.array(list(symptoms_df['symptom_vector'])))[0])
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'symptom_vector'
+09:24:12,54 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+09:24:12,57 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+09:24:12,57 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+09:24:53,524 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+09:24:53,524 root INFO Encoding symptom foot pain
+09:24:53,531 rasa_sdk.endpoint ERROR Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'symptom_vector'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 112, in webhook
+    result = await executor.run(action_call)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/executor.py", line 398, in run
+    action(dispatcher, tracker, domain)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/actions/actions.py", line 32, in run
+    illness_vector = create_illness_vector(encoded_symptoms)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/diaganosis_functions/diagnose.py", line 50, in create_illness_vector
+    np.array(list(symptoms_df['symptom_vector'])))[0])
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'symptom_vector'
+09:38:35,537 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+09:38:35,540 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+09:38:35,540 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+09:39:05,536 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+09:39:05,536 root INFO Encoding symptom home/ihsan/Documents/GitHub/Rasa/venv/bin/activate
+09:39:05,550 rasa_sdk.endpoint ERROR Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'symptom_vector'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 112, in webhook
+    result = await executor.run(action_call)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/executor.py", line 398, in run
+    action(dispatcher, tracker, domain)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/actions/actions.py", line 32, in run
+    illness_vector = create_illness_vector(encoded_symptoms)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/diaganosis_functions/diagnose.py", line 50, in create_illness_vector
+    np.array(list(symptoms_df['symptom_vector'])))[0])
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'symptom_vector'
+09:41:43,320 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+09:41:43,320 root INFO Encoding symptom skin itching
+09:41:43,326 rasa_sdk.endpoint ERROR Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'symptom_vector'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 112, in webhook
+    result = await executor.run(action_call)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/executor.py", line 398, in run
+    action(dispatcher, tracker, domain)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/actions/actions.py", line 32, in run
+    illness_vector = create_illness_vector(encoded_symptoms)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/diaganosis_functions/diagnose.py", line 50, in create_illness_vector
+    np.array(list(symptoms_df['symptom_vector'])))[0])
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'symptom_vector'
+11:01:27,357 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+11:01:27,357 root INFO Encoding symptom eye swelling
+11:01:27,368 rasa_sdk.endpoint ERROR Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'symptom_vector'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 112, in webhook
+    result = await executor.run(action_call)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/executor.py", line 398, in run
+    action(dispatcher, tracker, domain)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/actions/actions.py", line 32, in run
+    illness_vector = create_illness_vector(encoded_symptoms)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/diaganosis_functions/diagnose.py", line 50, in create_illness_vector
+    np.array(list(symptoms_df['symptom_vector'])))[0])
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'symptom_vector'
+11:18:16,692 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+11:18:16,695 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+11:18:16,695 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+12:00:17,682 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+12:00:17,683 root INFO Encoding symptom eye swelling
+12:00:17,720 rasa_sdk.endpoint ERROR Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'symptom_vector'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 112, in webhook
+    result = await executor.run(action_call)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/executor.py", line 398, in run
+    action(dispatcher, tracker, domain)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/actions/actions.py", line 32, in run
+    illness_vector = create_illness_vector(encoded_symptoms)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/diaganosis_functions/diagnose.py", line 50, in create_illness_vector
+    np.array(list(symptoms_df['symptom_vector'])))[0])
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'symptom_vector'
+12:27:28,382 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+12:27:28,385 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+12:27:28,385 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+12:27:40,520 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+12:27:40,520 root INFO Encoding symptom penile discharge
+12:27:40,535 rasa_sdk.endpoint ERROR Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'symptom_vector'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 112, in webhook
+    result = await executor.run(action_call)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/executor.py", line 398, in run
+    action(dispatcher, tracker, domain)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/actions/actions.py", line 32, in run
+    illness_vector = create_illness_vector(encoded_symptoms)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/diaganosis_functions/diagnose.py", line 50, in create_illness_vector
+    np.array(list(symptoms_df['symptom_vector'])))[0])
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'symptom_vector'
+12:34:52,362 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+12:34:52,362 root INFO Encoding symptom foot redness
+12:34:52,371 rasa_sdk.endpoint ERROR Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'symptom_vector'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 112, in webhook
+    result = await executor.run(action_call)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/executor.py", line 398, in run
+    action(dispatcher, tracker, domain)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/actions/actions.py", line 32, in run
+    illness_vector = create_illness_vector(encoded_symptoms)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/diaganosis_functions/diagnose.py", line 50, in create_illness_vector
+    np.array(list(symptoms_df['symptom_vector'])))[0])
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'symptom_vector'
+12:44:35,42 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+12:44:35,45 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+12:44:35,45 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+12:45:58,56 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+12:45:58,57 rasa_sdk.endpoint ERROR Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 112, in webhook
+    result = await executor.run(action_call)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/executor.py", line 398, in run
+    action(dispatcher, tracker, domain)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/actions/actions.py", line 29, in run
+    encoded_symptoms = [encode_symptom(symptom) for symptom in symptoms]
+TypeError: 'NoneType' object is not iterable
+13:02:43,150 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+13:02:43,152 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+13:02:43,153 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+13:05:18,747 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+13:05:18,748 rasa_sdk.endpoint ERROR Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 112, in webhook
+    result = await executor.run(action_call)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/executor.py", line 398, in run
+    action(dispatcher, tracker, domain)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/actions/actions.py", line 30, in run
+    encoded_symptoms = [encode_symptom(symptom) for symptom in symptoms]
+TypeError: 'NoneType' object is not iterable
+13:16:17,451 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+13:16:17,455 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+13:16:17,456 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+13:18:57,56 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+13:18:57,57 root INFO Encoding symptom foot redness
+13:18:57,95 rasa_sdk.endpoint ERROR Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'symptom_vector'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 112, in webhook
+    result = await executor.run(action_call)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/executor.py", line 398, in run
+    action(dispatcher, tracker, domain)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/actions/actions.py", line 33, in run
+    illness_vector = create_illness_vector(encoded_symptoms)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/diaganose_functions/diagnose.py", line 50, in create_illness_vector
+    np.array(list(symptoms_df['symptom_vector'])))[0])
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'symptom_vector'
+13:57:28,51 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+13:57:28,54 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+13:57:28,54 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+13:58:07,714 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+13:58:07,714 root INFO Encoding symptom flatulence](symptom
+13:58:07,734 rasa_sdk.endpoint ERROR Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'symptom_vector'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 112, in webhook
+    result = await executor.run(action_call)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/executor.py", line 398, in run
+    action(dispatcher, tracker, domain)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/actions/actions.py", line 33, in run
+    illness_vector = create_illness_vector(encoded_symptoms)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/diaganose_functions/diagnose.py", line 50, in create_illness_vector
+    np.array(list(symptoms_df['symptom_vector'])))[0])
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'symptom_vector'
+14:09:33,987 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+14:09:33,988 rasa_sdk.endpoint ERROR Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 112, in webhook
+    result = await executor.run(action_call)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/executor.py", line 398, in run
+    action(dispatcher, tracker, domain)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/actions/actions.py", line 30, in run
+    encoded_symptoms = [encode_symptom(symptom) for symptom in symptoms]
+TypeError: 'NoneType' object is not iterable
+14:10:50,399 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+14:10:50,402 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+14:10:50,402 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+14:11:57,25 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+14:11:57,27 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+14:11:57,27 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+14:12:09,705 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+14:12:09,708 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+14:12:09,708 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+14:16:48,757 rasa_sdk.endpoint ERROR Exception occurred during execution of request <Request: GET />
+Traceback (most recent call last):
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/sanic_routing/router.py", line 79, in resolve
+    route, param_basket = self.find_route(
+  File "", line 9, in find_route
+sanic_routing.exceptions.NotFound: Not Found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/sanic_routing/router.py", line 79, in resolve
+    route, param_basket = self.find_route(
+  File "", line 9, in find_route
+sanic_routing.exceptions.NotFound: Not Found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/sanic/router.py", line 38, in _get
+    return self.resolve(
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/sanic_routing/router.py", line 90, in resolve
+    return self.resolve(
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/sanic_routing/router.py", line 96, in resolve
+    raise self.exception(str(e), path=path)
+sanic_routing.exceptions.NotFound: Not Found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "handle_request", line 26, in handle_request
+    from socket import socket
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/sanic/router.py", line 66, in get
+    return self._get(path, method, host)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/sanic/router.py", line 44, in _get
+    raise NotFound("Requested URL {} not found".format(e.path))
+sanic.exceptions.NotFound: Requested URL  not found
+14:16:48,860 rasa_sdk.endpoint ERROR Exception occurred during execution of request <Request: GET /favicon.ico>
+Traceback (most recent call last):
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/sanic_routing/router.py", line 79, in resolve
+    route, param_basket = self.find_route(
+  File "", line 9, in find_route
+sanic_routing.exceptions.NotFound: Not Found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/sanic/router.py", line 38, in _get
+    return self.resolve(
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/sanic_routing/router.py", line 96, in resolve
+    raise self.exception(str(e), path=path)
+sanic_routing.exceptions.NotFound: Not Found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "handle_request", line 26, in handle_request
+    from socket import socket
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/sanic/router.py", line 66, in get
+    return self._get(path, method, host)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/sanic/router.py", line 44, in _get
+    raise NotFound("Requested URL {} not found".format(e.path))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+18:15:58,872 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+18:15:58,875 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+18:15:58,875 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+18:16:57,420 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+18:16:57,420 root INFO Encoding symptom back pain
+18:16:57,435 rasa_sdk.endpoint ERROR Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'symptom_vector'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/endpoint.py", line 112, in webhook
+    result = await executor.run(action_call)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/rasa_sdk/executor.py", line 398, in run
+    action(dispatcher, tracker, domain)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/actions/actions.py", line 33, in run
+    illness_vector = create_illness_vector(encoded_symptoms)
+  File "/home/ihsan/Documents/GitHub/Rasa/Rasa-Chatbot/medical diagnosis bot/diaganose_functions/diagnose.py", line 50, in create_illness_vector
+    np.array(list(symptoms_df['symptom_vector'])))[0])
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/ihsan/Documents/GitHub/Rasa/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'symptom_vector'
+18:54:43,453 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+18:54:43,456 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+18:54:43,456 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+18:55:24,755 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+18:55:24,755 root INFO Encoding symptom vomiting
+18:55:24,769 root INFO Flagged 1 potential symptom matches
+18:55:24,794 root INFO Diagnosing user with Acidosis  (excessive acid in the body)
+18:55:24,794 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+06:56:46,193 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+06:56:46,195 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+06:56:46,195 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+06:57:45,546 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+06:57:45,546 root INFO Encoding symptom back pain
+06:57:45,562 root INFO Flagged 0 potential symptom matches
+06:57:45,588 root INFO Unable to find a diagnosis, the closest match was Cholecystitis inflammation of the gallbladder at 0.0
+06:57:45,588 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+06:59:00,939 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+06:59:00,939 root INFO Encoding symptom blood in vomit
+06:59:00,950 root INFO Flagged 1 potential symptom matches
+06:59:00,972 root INFO Diagnosing user with Hemoptysis coughing blood
+06:59:00,973 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+07:02:33,351 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+07:02:33,351 root INFO Encoding symptom ankle pain
+07:02:33,360 root INFO Flagged 6 potential symptom matches
+07:02:33,384 root INFO Unable to find a diagnosis, the closest match was Pulmonary hypertension high blood pressure in the lungs at 0.4082482904638631
+07:02:33,384 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+07:02:54,794 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+07:02:54,794 root INFO Encoding symptom pain
+07:02:54,803 root INFO Flagged 13 potential symptom matches
+07:02:54,826 root INFO Unable to find a diagnosis, the closest match was Coronary artery dissection heart artery tear at 0.2773500981126146
+07:02:54,826 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+07:24:03,266 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+07:24:03,269 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+07:24:03,269 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+07:24:54,787 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+07:24:54,787 root INFO Encoding symptom blood in vomit
+07:24:54,799 root INFO Flagged 1 potential symptom matches
+07:24:54,818 root INFO Diagnosing user with Hemoptysis coughing blood
+07:24:54,818 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
