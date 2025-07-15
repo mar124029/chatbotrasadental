@@ -71,5 +71,4 @@ ENV/
 ```
 
 ## Créditos y licencia
-- Proyecto original de [@ihsan292292](https://github.com/ihsan292292/Rasa-Chatbot)s
-
+- Proyecto original de [@ihsan292292](https://github.com/ihsan292292/Rasa-Chatbot)
