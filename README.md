@@ -18,7 +18,7 @@ Este proyecto es un chatbot médico desarrollado con [Rasa](https://rasa.com/) q
 1. **Clona el repositorio:**
    ```sh
    git clone <URL_DEL_REPOSITORIO>
-   cd Rasa-Chatbot
+   cd <nombre-de-carpeta>
    ```
 2. **Crea un entorno virtual:**
    ```sh
@@ -56,11 +56,6 @@ Este proyecto es un chatbot médico desarrollado con [Rasa](https://rasa.com/) q
 - `models/` — Modelos entrenados de Rasa.
 - `tests/` — Pruebas automáticas.
 
-## Buenas prácticas
-- **No subas tu entorno virtual (`venv/`) ni la carpeta `.rasa/` al repositorio.**
-- Usa el archivo `.gitignore` para excluir archivos y carpetas temporales o específicas de tu entorno local.
-- Mantén tus datos de entrenamiento y respuestas en español para asegurar la coherencia del bot.
-
 ## Ejemplo de `.gitignore`
 ```
 venv/
@@ -76,6 +71,5 @@ ENV/
 ```
 
 ## Créditos y licencia
-- Proyecto original de [@ihsan292292](https://github.com/ihsan292292/Rasa-Chatbot)
-- Mejorado y adaptado por [Tu Nombre o Equipo].
+- Proyecto original de [@ihsan292292](https://github.com/ihsan292292/Rasa-Chatbot)s
 
