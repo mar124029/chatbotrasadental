@@ -1,0 +1,7 @@
+rasa==3.5.8
+rasa-sdk
+pandas
+numpy<1.22
+spacy==3.5.4
+thinc==8.1.10
+scikit-learn

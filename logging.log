@@ -539,3 +539,142 @@ KeyError: 'symptom_vector'
 07:24:54,799 root INFO Flagged 1 potential symptom matches
 07:24:54,818 root INFO Diagnosing user with Hemoptysis coughing blood
 07:24:54,818 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+21:37:45,672 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+21:37:45,681 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+21:37:45,682 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+21:45:48,513 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+21:45:48,513 root INFO Encoding symptom dientes
+21:45:48,531 root INFO Flagged 0 potential symptom matches
+21:45:48,531 rasa_sdk.endpoint ERROR Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "c:\users\marco\onedrive\escritorio\rasa\rasa-chatbot\venv\lib\site-packages\pandas\core\indexes\base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'illness_vector'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "c:\users\marco\onedrive\escritorio\rasa\rasa-chatbot\venv\lib\site-packages\rasa_sdk\endpoint.py", line 112, in webhook
+    result = await executor.run(action_call)
+  File "c:\users\marco\onedrive\escritorio\rasa\rasa-chatbot\venv\lib\site-packages\rasa_sdk\executor.py", line 398, in run
+    action(dispatcher, tracker, domain)
+  File "C:\Users\marco\OneDrive\Escritorio\Rasa\Rasa-Chatbot\actions\actions.py", line 35, in run
+    diagnosis_string = get_diagnosis(illness_vector)
+  File "C:\Users\marco\OneDrive\Escritorio\Rasa\Rasa-Chatbot\diaganose_functions\diagnose.py", line 72, in get_diagnosis
+    np.array(list(diagnosis_df['illness_vector'])))[0])
+  File "c:\users\marco\onedrive\escritorio\rasa\rasa-chatbot\venv\lib\site-packages\pandas\core\frame.py", line 3458, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "c:\users\marco\onedrive\escritorio\rasa\rasa-chatbot\venv\lib\site-packages\pandas\core\indexes\base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'illness_vector'
+21:46:29,311 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+21:46:29,311 root INFO Encoding symptom hurt
+21:46:29,318 root INFO Encoding symptom things
+21:46:29,333 root INFO Flagged 0 potential symptom matches
+21:46:29,342 root INFO Flagged 0 potential symptom matches
+21:46:29,343 rasa_sdk.endpoint ERROR Exception occurred during execution of request <Request: POST /webhook>
+Traceback (most recent call last):
+  File "c:\users\marco\onedrive\escritorio\rasa\rasa-chatbot\venv\lib\site-packages\pandas\core\indexes\base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'illness_vector'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "handle_request", line 83, in handle_request
+    )
+  File "c:\users\marco\onedrive\escritorio\rasa\rasa-chatbot\venv\lib\site-packages\rasa_sdk\endpoint.py", line 112, in webhook
+    result = await executor.run(action_call)
+  File "c:\users\marco\onedrive\escritorio\rasa\rasa-chatbot\venv\lib\site-packages\rasa_sdk\executor.py", line 398, in run
+    action(dispatcher, tracker, domain)
+  File "C:\Users\marco\OneDrive\Escritorio\Rasa\Rasa-Chatbot\actions\actions.py", line 35, in run
+    diagnosis_string = get_diagnosis(illness_vector)
+  File "C:\Users\marco\OneDrive\Escritorio\Rasa\Rasa-Chatbot\diaganose_functions\diagnose.py", line 72, in get_diagnosis
+    np.array(list(diagnosis_df['illness_vector'])))[0])
+  File "c:\users\marco\onedrive\escritorio\rasa\rasa-chatbot\venv\lib\site-packages\pandas\core\frame.py", line 3458, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "c:\users\marco\onedrive\escritorio\rasa\rasa-chatbot\venv\lib\site-packages\pandas\core\indexes\base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'illness_vector'
+21:59:17,280 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+21:59:17,292 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+21:59:17,293 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+22:02:16,167 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+22:02:16,167 root INFO Encoding symptom hurt
+22:02:16,183 root INFO Encoding symptom things
+22:02:16,198 root INFO Flagged 0 potential symptom matches
+22:02:16,214 root INFO Flagged 0 potential symptom matches
+22:02:16,254 root INFO Unable to find a diagnosis, the closest match was Cholecystitis inflammation of the gallbladder at 0.0
+22:02:16,254 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+22:03:10,226 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+22:03:10,226 root INFO Encoding symptom rash
+22:03:10,242 root INFO Flagged 1 potential symptom matches
+22:03:10,271 root INFO Unable to find a diagnosis, the closest match was Erysipelas bacterial skin infection at 0.5
+22:03:10,271 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+22:03:23,109 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+22:03:23,109 root INFO Encoding symptom joint pain
+22:03:23,124 root INFO Flagged 3 potential symptom matches
+22:03:23,153 root INFO Diagnosing user with Mittelschmerz ovulation pain
+22:03:23,153 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+22:03:52,198 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+22:03:52,198 root INFO Encoding symptom stomach
+22:03:52,198 root INFO Encoding symptom hurts
+22:03:52,213 root INFO Encoding symptom a rash
+22:03:52,229 root INFO Flagged 0 potential symptom matches
+22:03:52,229 root INFO Flagged 0 potential symptom matches
+22:03:52,245 root INFO Flagged 0 potential symptom matches
+22:03:52,260 root INFO Unable to find a diagnosis, the closest match was Cholecystitis inflammation of the gallbladder at 0.0
+22:03:52,260 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+22:04:03,32 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+22:04:03,32 root INFO Encoding symptom impotence
+22:04:03,32 root INFO Encoding symptom penis pain
+22:04:03,48 root INFO Encoding symptom fainting
+22:04:03,48 root INFO Encoding symptom anger
+22:04:03,72 root INFO Flagged 0 potential symptom matches
+22:04:03,72 root INFO Flagged 7 potential symptom matches
+22:04:03,88 root INFO Flagged 1 potential symptom matches
+22:04:03,88 root INFO Flagged 2 potential symptom matches
+22:04:03,135 root INFO Unable to find a diagnosis, the closest match was Essential tremor abnormal rhythmic shaking at 0.31622776601683794
+22:04:03,135 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+22:07:51,824 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+22:07:51,824 root INFO Encoding symptom vaginal itching
+22:07:51,835 root INFO Encoding symptom pain or soreness of breast
+22:07:51,854 root INFO Flagged 1 potential symptom matches
+22:07:51,862 root INFO Flagged 3 potential symptom matches
+22:07:51,899 root INFO Diagnosing user with Breast fibroadenoma benign breast lumps
+22:07:51,900 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+22:08:11,729 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+22:08:11,729 root INFO Encoding symptom painful gums
+22:08:11,758 root INFO Flagged 2 potential symptom matches
+22:08:11,793 root INFO Diagnosing user with Gingivitis inflammation of the gums
+22:08:11,794 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+11:10:07,755 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+11:10:07,801 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+11:10:07,801 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+11:16:05,20 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+11:16:05,20 root INFO Encoding symptom vaginal itching
+11:16:05,54 root INFO Encoding symptom pain or soreness of breast
+11:16:05,88 root INFO Flagged 1 potential symptom matches
+11:16:05,98 root INFO Flagged 3 potential symptom matches
+11:16:05,144 root INFO Diagnosing user with Breast fibroadenoma benign breast lumps
+11:16:05,144 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+11:16:33,44 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+11:16:33,44 root INFO Encoding symptom painful gums
+11:16:33,74 root INFO Flagged 2 potential symptom matches
+11:16:33,122 root INFO Diagnosing user with Gingivitis inflammation of the gums
+11:16:33,122 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+11:24:57,789 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+11:24:57,789 root INFO Encoding symptom gingivitis
+11:24:57,805 root INFO Flagged 0 potential symptom matches
+11:24:57,834 root INFO Unable to find a diagnosis, the closest match was Cholecystitis inflammation of the gallbladder at 0.0
+11:24:57,834 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
