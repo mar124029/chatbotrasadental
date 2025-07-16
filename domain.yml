@@ -14,7 +14,6 @@ intents:
 entities:
   - symptom
 
-
 actions:
   - utter_greet
   - utter_goodbye
@@ -32,19 +31,19 @@ slots:
 
 responses:
   utter_greet:
-  - text: "Hello, I am a symptom diagnosis bot. What are your symptoms?"
+  - text: "Hola, soy un bot de diagnóstico de síntomas. ¿Cuáles son tus síntomas?"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "¡Adiós!"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "Soy un bot, impulsado por Rasa."
 
   utter_no_problem:
-  - text: "No problem!"
+  - text: "¡No hay problema!"
   
   utter_happy:
-  - text: "Thank you for your time!"
+  - text: "¡Gracias por tu tiempo!"
 
 session_config:
   session_expiration_time: 60
