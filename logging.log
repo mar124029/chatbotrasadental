@@ -678,3 +678,16 @@ KeyError: 'illness_vector'
 11:24:57,805 root INFO Flagged 0 potential symptom matches
 11:24:57,834 root INFO Unable to find a diagnosis, the closest match was Cholecystitis inflammation of the gallbladder at 0.0
 11:24:57,834 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+16:39:39,540 rasa_sdk.executor INFO Registered function for 'action_diagnose_symptoms'.
+16:39:39,571 rasa_sdk.endpoint INFO Action endpoint is up and running on http://0.0.0.0:5055
+16:39:39,571 rasa_sdk.utils DEBUG Using the default number of Sanic workers (1).
+16:39:46,204 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+16:39:46,204 root INFO Codificando síntoma dolor de cabeza
+16:39:46,228 root INFO Marcados 25 posibles síntomas coincidentes
+16:39:46,262 root INFO No se pudo encontrar un diagnóstico, la coincidencia más cercana fue Emergencia hipertensiva; presión arterial peligrosamente alta con 0.46188021535170065
+16:39:46,262 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'
+16:40:11,556 rasa_sdk.executor DEBUG Received request to run 'action_diagnose_symptoms'
+16:40:11,556 root INFO Codificando síntoma náuseas
+16:40:11,573 root INFO Marcados 1 posibles síntomas coincidentes
+16:40:11,603 root INFO Diagnosticando al usuario con Hematoma preseptal; coágulo de sangre en la nariz
+16:40:11,603 rasa_sdk.executor DEBUG Finished running 'action_diagnose_symptoms'

@@ -1,273 +1,306 @@
-syd,symptom
-"1","Upper abdominal pain"
-"2","Lower abdominal pain"
-"3","Abscess (Collection of pus)"
-"4","Alcohol abuse"
-"5","Anxiety (Nervousness)"
-"6","Arm ache or pain"
-"7","Back ache or pain"
-"8","Bleeding tendency"
-"9","Blood in vomit"
-"10","Bloody diarrhea"
-"11","Pain or soreness of breast"
-"12","Calf pain"
-"13","Chest pressure"
-"14","Chills"
-"15","Change in behavior"
-"16","Constipation"
-"17","Cough"
-"18","Dark stools"
-"19","Depressed"
-"20","Diarrhea"
-"21","Dizziness"
-"22","Double vision (Diplopia)"
-"23","Ear pressure"
-"24","Pain in the ear"
-"25","Elbow ache or pain"
-"26","Eye pain (Irritation)"
-"27","Facial pain"
-"28","Fainting"
-"29","Fever"
-"30","Fever in the returning traveler"
-"31","Fever of unknown origin"
-"32","Flank pain"
-"33","Frequent urination (Frequency)"
-"34",""
-"35","Foot pain"
-"36","Cranky, crying, fussy, irritable child"
-"37","Groin pain"
-"38","Delusions or hallucinations"
-"39","Hand, finger ache or pain"
-"40","Head injury"
-"41","Headache"
-"42","Heel pain"
-"43","Heat illness"
-"44",""
-"45","Hip pain"
-"46","Hives"
-"47","Hoarse voice"
-"48","Hypothermia (Low temperature)"
-"49","Incontinence (leaking urine)"
-"50","Insect sting"
-"51","Insomnia (Trouble sleeping)"
-"52","Skin itching"
-"53","Joint pain"
-"54","Kidney pain (Flank pain)"
-"55","Knee pain"
-"56","Laceration"
-"57","Leg ache or pain"
-"58","Swelling of both legs"
-"59","Lethargy (Sluggishness)"
-"60",""
-"61","Mouth pain"
-"62","Muscle pain"
-"63","Nail Injury"
-"64","Nasal bleeding"
-"65","Nasal injury"
-"66","Nausea"
-"67","Neck ache or pain"
-"68","Neck swelling"
-"69","Numbness"
-"70","Obesity"
-"71","Overdose"
-"72","Painful urination"
-"73","Heart pulsations and palpitations"
-"74","Pelvic pain"
-"75","Penile discharge"
-"76","Penis pain"
-"77","Poisoning"
-"78","Pregnancy problem"
-"79","Psychiatric problem"
-"80","Puncture wound"
-"81","Rash"
-"82","Rectal pain"
-"83","Rectal swelling"
-"84",""
-"85","Scrotal pain"
-"86","Scrotal swelling"
-"87","Seizure"
-"88","Shortness of breath"
-"89","Shoulder ache or pain"
-"90","Sinus pain and pressure"
-"91","Skin trauma"
-"92","Snake bite"
-"93","Sore throat"
-"94","Speech problem"
-"95","Spider bite"
-"96","Substance abuse (Drug abuse)"
-"97","Suicidal tendencies"
-"98","Swallowing problem (Dysphagia)"
-"99","Swelling"
-"100","Toe pain"
-"101","Tooth pain"
-"102","Trauma"
-"103","Traveler's diarrhea"
-"104","Unsteady gait (Trouble walking)"
-"105","Vaginal bleeding"
-"106","Vaginal bleeding after menopause"
-"107","Vaginal bleeding during pregnancy"
-"108","Vaginal discharge"
-"109","Vaginal itching"
-"110","Vaginal pain"
-"111","Vertigo (Room spinning)"
-"112","Visual problems"
-"113","Vomiting"
-"114","General weakness"
-"115","Weakness (Muscle localized)"
-"116","Tired"
-"117",""
-"118","Wrist pain"
-"119",""
-"120","Throat pain"
-"121","Tremors"
-"122",""
-"123","Weight loss, unexplained"
-"125",""
-"126","Tongue swelling"
-"127",""
-"128","Inconsolable baby"
-"129","Wheezing (Noisy breathing)"
-"130",""
-"131","Swollen lymph nodes (Large lymph nodes)"
-"132","Failure to thrive"
-"133",""
-"134",""
-"135",""
-"136","Behavioral problem"
-"137",""
-"138",""
-"139","Itchy rash (Pruritic rash)"
-"144",""
-"145","Headache after trauma"
-"146","Learning difficulties"
-"147","Blood in urine (Hematuria)"
-"148","Urinary retention (Inability to urinate)"
-"149","Liver failure (Cirrhosis)"
-"150","Choking"
-"151",""
-"152","Painful rash"
-"153","Ingestion"
-"154",""
-"155","Melena (Black stools from blood)"
-"156","Vomiting coffee ground material"
-"157","Ringing in ears (Tinnitus)"
-"158","Mouth ulcers"
-"159","Mouth swelling"
-"160","Eye redness"
-"162","Sneezing"
-"163","Bleeding gums"
-"164","Loss of balance"
-"165","Bleeding in brain"
-"170","Cyanosis (Blue skin coloration)"
-"171","Muscle spasm"
-"172","Drooling"
-"173","Abdominal swelling (Stomach swelling)"
-"174","Skin growths"
-"175",""
-"176","Hand numbness (paresthesias)"
-"177","Ankle pain"
-"178","Hemoptysis (Coughing blood)"
-"179","Jaundice (Yellowing skin)"
-"180","Night sweats"
-"181","Flatulence (Passing gas)"
-"182",""
-"183","Blister (Pocket of fluid)"
-"186","Hair loss (Baldness)"
-"187","Jaw pain"
-"188","Impotence"
-"189","Heart murmur (Abnormal heart sound)"
-"190","Pustule (Collection of pus)"
-"191","Skin pain"
-"192","Hot skin"
-"193","Skin swelling"
-"194","Lip swelling"
-"195","Eye swelling"
-"196","Foot swelling"
-"197","Visual flashing lights"
-"198","Eye floaters"
-"199","Amenorrhea (No menstruation)"
-"200","Blurry vision"
-"201",""
-"202","Painful gums"
-"203","Swollen gums"
-"204","Low blood sugar"
-"205","Low blood pressure"
-"206","Darkening of the skin (Hyperpigmentation)"
-"207","Low heart rate"
-"208","Foot itching"
-"209","Hot flashes"
-"210",""
-"211","Infertility (Female)"
-"212","Increased facial hair"
-"213","Arm swelling"
-"214","Calf swelling"
-"215",""
-"216","Ear swelling"
-"217","Wrist swelling"
-"218","Maroon stools"
-"219","Arm cut (laceration)"
-"220","Hand cut (laceration)"
-"221","Leg cut (laceration)"
-"222","Foot cut (laceration)"
-"223",""
-"224",""
-"225","Arm itching"
-"226","Hand redness"
-"227","Foot redness"
-"228","Arm redness"
-"229","Leg redness"
-"230","Hand itching"
-"231","Leg itching"
-"232","Steatorrhea (Excess fat in stool)"
-"233","Upper leg pain"
-"234","Armpit pain"
-"235","Sweating"
-"236","Nasal congestion"
-"237","Joint stiffness"
-"238","Skin sores"
-"239","Chest burning"
-"240","Memory loss"
-"241","Arm numbness (paresthesias)"
-"242","Leg numbness (paresthesias)"
-"243","Foot numbness (paresthesias)"
-"244","Face numbness (paresthesias)"
-"245",""
-"246","Dementia"
-"247","Facial droop (weakness)"
-"248","Limping in a child"
-"249","Increased thirst"
-"250","Increased urination (polyuria)"
-"251","Shin pain"
-"252","Stings"
-"254","Sleep disorders"
-"255","Drooping eyelid (Ptosis)"
-"257","Snoring"
-"258","Dry skin"
-"259","Itchy eyes"
-"261","Elbow swelling"
-"262","Chest pain"
-"263","Skin infection"
-"264","Stomach and abdominal pain"
-"265","Anger"
-"269","Hurts to breathe"
-"270","Difficulty breathing"
-"271","Pulling at ears"
-"272","Skin bumps"
-"273","Congestion in chest or lungs"
-"274","Discharge from ear"
-"275","Low back ache or pain"
-"277","Unusual color or odor of urine"
-"281","Penis inflammation or swelling"
-"282","Excessive appetite"
-"284","Retaining fluid"
-"287","Lump or mass of breast"
-"290","Neck stiffness or tightness"
-"291","Agitated"
-"292","Confusion"
-"293","Headache and weakness"
-"294","Confusion and headache"
-"295","Nipple discharge"
-"301","Shoulder stiffness or tightness"
-"303","Arm stiffness or tightness"
-"304","High blood pressure"
-"306","High blood sugar"
+syd	symptom
+1	Dolor abdominal superior
+2	Dolor abdominal inferior
+3	Absceso; acumulación de pus
+4	Abuso de alcohol
+5	Ansiedad; nerviosismo
+6	Dolor o molestia en el brazo
+7	Dolor o molestia en la espalda
+8	Tendencia a sangrar
+9	Sangre en el vómito
+10	Diarrea con sangre
+11	Dolor o sensibilidad en el pecho
+12	Dolor en la pantorrilla
+13	Presión en el pecho
+14	Escalofríos
+15	Cambio de comportamiento
+16	Estreñimiento
+17	Tos
+18	Heces oscuras
+19	Depresión
+20	Diarrea
+21	Mareos
+22	Visión doble; diplopía
+23	Presión en el oído
+24	Dolor de oído
+25	Dolor o molestia en el ojo
+26	Dolor o molestia en el pie
+27	Dolor o molestia en la mano
+28	Dolor de cabeza
+29	Dolor de cadera
+30	Dolor o molestia en la pierna
+31	Dolor de mandíbula
+32	Dolor de rodilla
+33	Dolor de cuello
+34	Dolor o molestia en el hombro
+35	Dolor de garganta
+36	Dolor de muelas
+37	Dolor o molestia en la muñeca
+38	Dolor o molestia en el tobillo
+39	Dolor o molestia en el codo
+40	Dolor o molestia en los dedos
+41	Dolor de oído
+42	Dolor en el talón
+43	Enfermedad por calor
+44	Dolor de cadera
+45	Urticaria
+46	Voz ronca
+47	Hipotermia (temperatura baja)
+48	Incontinencia (pérdida de orina)
+49	Picadura de insecto
+50	Insomnio (dificultad para dormir)
+51	Picazón en la piel
+52	Dolor articular
+53	Dolor renal (dolor en el costado)
+54	Dolor de rodilla
+55	Laceración
+56	Dolor o molestia en la pierna
+57	Hinchazón de ambas piernas
+58	Letargo (lentitud)
+60	Dolor bucal
+61	Dolor muscular
+62	Lesión en la uña
+63	Sangrado nasal
+64	Lesión nasal
+65	Náuseas
+66	Dolor o molestia en el cuello
+67	Hinchazón del cuello
+68	Entumecimiento
+69	Obesidad
+70	Sobredosis
+71	Micción dolorosa
+72	Palpitaciones y latidos cardíacos rápidos
+73	Dolor pélvico
+74	Secreción del pene
+75	Dolor en el pene
+76	Envenenamiento
+77	Problema en el embarazo
+78	Problema psiquiátrico
+79	Herida punzante
+80	Erupción
+81	Dolor rectal
+82	Hinchazón rectal
+83	Dolor escrotal
+84	Hinchazón escrotal
+85	Convulsión
+86	Falta de aire
+87	Dolor o molestia en el hombro
+88	Dolor y presión sinusal
+89	Trauma en la piel
+90	Mordedura de serpiente
+91	Dolor de garganta
+92	Problema del habla
+93	Picadura de araña
+94	Abuso de sustancias (drogas)
+95	Tendencias suicidas
+96	Problema para tragar (disfagia)
+97	Hinchazón
+98	Dolor en el dedo del pie
+99	Dolor de muelas
+100	Trauma
+101	Diarrea del viajero
+102	Marcha inestable (dificultad para caminar)
+103	Sangrado vaginal
+104	Sangrado vaginal después de la menopausia
+105	Sangrado vaginal durante el embarazo
+106	Secreción vaginal
+107	Picazón vaginal
+108	Dolor vaginal
+109	Vértigo (sensación de que todo gira)
+110	Problemas visuales
+111	Vómitos
+112	Debilidad general
+113	Debilidad (muscular localizada)
+114	Cansancio
+115	Dolor de muñeca
+116	Dolor de garganta
+117	Temblores
+118	Pérdida de peso inexplicada
+119	Hinchazón de la lengua
+120	Bebé inconsolable
+121	Sibilancias (respiración ruidosa)
+122	Ganglios linfáticos inflamados (grandes)
+123	Fallo de medro
+124	Erupción pruriginosa (con picazón)
+125	Dolor de cabeza después de un trauma
+126	Dificultades de aprendizaje
+127	Sangre en la orina (hematuria)
+128	Retención urinaria (incapacidad para orinar)
+129	Insuficiencia hepática (cirrosis)
+130	Atragantamiento
+131	Erupción dolorosa
+132	Ingesta
+133	Melena (heces negras por sangre)
+134	Vómito de material similar a posos de café
+135	Zumbido en los oídos (tinnitus)
+136	Úlceras bucales
+137	Hinchazón bucal
+138	Enrojecimiento ocular
+139	Estornudos
+140	Sangrado de encías
+141	Pérdida de equilibrio
+142	Sangrado cerebral
+143	Cianosis (coloración azulada de la piel)
+144	Erupción pruriginosa (con picazón)
+145	Dolor de cabeza después de un trauma
+146	Dificultades de aprendizaje
+147	Sangre en la orina (hematuria)
+148	Retención urinaria (incapacidad para orinar)
+149	Insuficiencia hepática (cirrosis)
+150	Atragantamiento
+151	Erupción dolorosa
+152	Ingesta
+153	Melena (heces negras por sangre)
+154	Vómito de material similar a posos de café
+155	Zumbido en los oídos (tinnitus)
+156	Úlceras bucales
+157	Hinchazón bucal
+158	Enrojecimiento ocular
+159	Estornudos
+160	Sangrado de encías
+161	Pérdida de equilibrio
+162	Sangrado cerebral
+163	Cianosis (coloración azulada de la piel)
+164	Entumecimiento de la mano (parestesias)
+165	Dolor de tobillo
+166	Hemoptisis (tos con sangre)
+167	Ictericia (coloración amarilla de la piel)
+168	Sudores nocturnos
+169	Flatulencia (gases)
+170	Cianosis (coloración azulada de la piel)
+171	Espasmo muscular
+172	Babeo
+173	Hinchazón abdominal (hinchazón del estómago)
+174	Crecimientos en la piel
+175	Entumecimiento de la mano (parestesias)
+176	Dolor de tobillo
+177	Hemoptisis (tos con sangre)
+178	Ictericia (coloración amarilla de la piel)
+179	Sudores nocturnos
+180	Flatulencia (gases)
+181	Flatulencia (gases)
+182	Flatulencia (gases)
+183	Flatulencia (gases)
+184	Flatulencia (gases)
+185	Flatulencia (gases)
+186	Pérdida de cabello (calvicie)
+187	Dolor mandibular
+188	Impotencia
+189	Soplo cardíaco (sonido cardíaco anormal)
+190	Pústula (acumulación de pus)
+191	Dolor en la piel
+192	Piel caliente
+193	Hinchazón de la piel
+194	Hinchazón de labios
+195	Hinchazón ocular
+196	Hinchazón del pie
+197	Destellos visuales
+198	Moscas volantes (manchas en la visión)
+199	Amenorrea (ausencia de menstruación)
+200	Visión borrosa
+201	Encías dolorosas
+202	Encías inflamadas
+203	Bajo nivel de azúcar en sangre
+204	Baja presión arterial
+205	Oscurecimiento de la piel (hiperpigmentación)
+206	Frecuencia cardíaca baja
+207	Picazón en el pie
+208	Sofocos
+209	Infertilidad (femenina)
+210	Aumento de vello facial
+211	Hinchazón de brazo
+212	Hinchazón de pantorrilla
+213	Hinchazón de oído
+214	Hinchazón de muñeca
+215	Heces color marrón rojizo
+216	Corte en el brazo (laceración)
+217	Corte en la mano (laceración)
+218	Corte en la pierna (laceración)
+219	Corte en el pie (laceración)
+220	Picazón en el brazo
+221	Enrojecimiento de la mano
+222	Enrojecimiento del pie
+223	Enrojecimiento del brazo
+224	Enrojecimiento de la pierna
+225	Picazón en la mano
+226	Picazón en la pierna
+227	Esteatorrea (exceso de grasa en las heces)
+228	Dolor en la parte superior de la pierna
+229	Dolor en la axila
+230	Sudoración
+231	Congestión nasal
+232	Rigidez articular
+233	Llagas en la piel
+234	Ardor en el pecho
+235	Pérdida de memoria
+236	Entumecimiento de brazo (parestesias)
+237	Entumecimiento de pierna (parestesias)
+238	Entumecimiento de pie (parestesias)
+239	Entumecimiento facial (parestesias)
+240	Demencia
+241	Parálisis facial (debilidad)
+242	Cojera en un niño
+243	Aumento de la sed
+244	Aumento de la micción (poliuria)
+245	Dolor en la espinilla
+246	Picaduras
+247	Trastornos del sueño
+248	Párpado caído (ptosis)
+249	Ronquidos
+250	Piel seca
+251	Picazón en los ojos
+252	Hinchazón de codo
+253	Dolor en el pecho
+254	Secreción del oído
+255	Dolor lumbar
+256	Color u olor inusual de la orina
+257	Ronquidos
+258	Piel seca
+259	Picazón en los ojos
+260	Infertilidad (femenina)
+261	Hinchazón de codo
+262	Dolor en el pecho
+263	Infección cutánea
+264	Dolor de estómago y abdominal
+265	Ira
+266	Duele respirar
+267	Dificultad para respirar
+268	Tirarse de las orejas
+269	Protuberancias en la piel
+270	Congestión en el pecho o pulmones
+271	Secreción del oído
+272	Confusión
+273	Dolor de cabeza y debilidad
+274	Confusión y dolor de cabeza
+275	Secreción del pezón
+276	Secreción del pezón
+277	Color u olor inusual de la orina
+278	Infertilidad (femenina)
+279	Infertilidad (femenina)
+280	Infertilidad (femenina)
+281	Infertilidad (femenina)
+282	Apetito excesivo
+283	Retención de líquidos
+284	Retención de líquidos
+285	Bulto o masa en la mama
+286	Infertilidad (femenina)
+287	Bulto o masa en la mama
+288	Infertilidad (femenina)
+289	Infertilidad (femenina)
+290	Infertilidad (femenina)
+291	Agitado
+292	Confusión
+293	Dolor de cabeza y debilidad
+294	Confusión y dolor de cabeza
+295	Secreción del pezón
+296	Secreción del pezón
+297	Infertilidad (femenina)
+298	Infertilidad (femenina)
+299	Infertilidad (femenina)
+300	Infertilidad (femenina)
+301	Infertilidad (femenina)
+302	Infertilidad (femenina)
+303	Infertilidad (femenina)
+304	Presión arterial alta
+305	Infertilidad (femenina)
+306	Azúcar en sangre alta
